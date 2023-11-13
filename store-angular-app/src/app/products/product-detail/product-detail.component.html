@@ -1,1 +1,16 @@
-<p>product-detail works!</p>
+<div class="detail_item"*ngIf="product">
+    <div class="detail_indiv">
+    <img class="detail_img" src={{product.image}} alt="foto"/>
+    <div class="detail_info">
+    <p class="detail_title">{{product.title}}</p>
+    <p class="detail_description">{{product.description}}</p>
+    <p class="detail_category">{{product.category}}</p>
+    <p class="detail_price">{{product.price}}€</p>
+    </div>
+    <div class="detail_editDiv">
+        <button class="detail_edit" (click)="navigateToDetails(product)">Edit</button>
+    </div>
+    </div>
+    
+</div>
+

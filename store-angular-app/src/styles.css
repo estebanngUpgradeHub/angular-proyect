@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; cursor: default;}
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(58,153,180,1) 0%, rgba(253,29,29,1) 50%, rgba(25,218,216,1) 100%);
+    background-attachment: fixed;
+}
+

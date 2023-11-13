@@ -1,0 +1,37 @@
+.list_title{
+    color: rgb(255, 255, 255);
+    font-size: 1,75vw;
+    margin-bottom: 3vh;
+    cursor: cell;
+}
+
+.list_price{
+    
+    font-size: 25px;
+}
+.list_img{
+    width: 200px;
+    height: 300px;
+    cursor: cell;
+}
+
+.list_item{
+    display: flex;
+    height: 280px;
+    width: 590px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.list_info{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 2vw;
+}
+.list_indiv{
+    padding-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+}
